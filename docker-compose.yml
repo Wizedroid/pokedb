@@ -1,0 +1,24 @@
+services:
+  pokedb:
+    container_name: pokedb
+    build: ./pokedb/
+    ports: 
+      - "5432:5432"
+    networks:
+      - pokenet
+    volumes:
+      - ./data:/var/lib/postgresql/data
+  pokebook:
+    container_name: pokebook
+    image: jupyter/scipy-notebook:latest
+    ports:
+      - "8888:8888"
+    command: bash -c "pip install psycopg2-binary && start-notebook.sh --NotebookApp.token=oak"
+    networks:
+      - pokenet
+    volumes: 
+      - ./pokebook/work:/home/jovyan/work
+
+networks:
+  pokenet:
+    name: pokenet

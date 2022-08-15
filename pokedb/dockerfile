@@ -1,0 +1,5 @@
+FROM postgres:latest
+ENV POSTGRES_USER=oak
+ENV POSTGRES_PASSWORD=professor
+ENV POSTGRES_DB=pokemon
+COPY ./initdb/ /docker-entrypoint-initdb.d

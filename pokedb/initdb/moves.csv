@@ -1,0 +1,845 @@
+id,name,accuracy,power_points,priority,power,description,type_id
+1,pound,100,35,0,40,Pounds with fore­legs or tail,1
+2,karate-chop,100,25,0,50,Has a high criti­cal hit ratio,2
+3,double-slap,85,10,0,15,Repeatedly slaps2-5 times,1
+4,comet-punch,85,15,0,18,Repeatedly punches2-5 times,1
+5,mega-punch,85,20,0,80,A powerful punchthrown very hard,1
+6,pay-day,100,20,0,40,Throws coins Getsthem back later,1
+7,fire-punch,100,15,0,75,A fiery punch Maycause a burn,10
+8,ice-punch,100,15,0,75,An icy punch Maycause freezing,15
+9,thunder-punch,100,15,0,75,An electric punchIt may paralyze,13
+10,scratch,100,35,0,40,Scratches withsharp claws,1
+11,vice-grip,100,30,0,55,Grips with power­ful pincers,1
+12,guillotine,30,5,0,,"A one-hit KO,pincer attack",1
+13,razor-wind,100,10,0,80,1st turn: Prepare2nd turn: Attack,1
+14,swords-dance,,20,0,,A dance that in­creases ATTACK,1
+15,cut,95,30,0,50,"Cuts using claws,scythes, etc",1
+16,gust,100,35,0,40,Whips up a stronggust of wind,3
+17,wing-attack,100,35,0,60,Strikes the targetwith wings,3
+18,whirlwind,,20,-6,,Blows away the foe& ends battle,1
+19,fly,95,15,0,90,1st turn: Fly2nd turn: Attack,3
+20,bind,85,20,0,15,Binds the targetfor 2-5 turns,1
+21,slam,75,20,0,80,"Slams the foe witha tail, vine, etc",1
+22,vine-whip,100,25,0,45,Whips the foe withslender vines,12
+23,stomp,100,20,0,65,An attack that maycause flinching,1
+24,double-kick,100,30,0,30,A double kickingattack,2
+25,mega-kick,75,5,0,120,A powerful kickingattack,1
+26,jump-kick,95,10,0,100,A strong jumping kick Maymiss and hurt the kicker,2
+27,rolling-kick,85,15,0,60,"A fast, spinningkick",2
+28,sand-attack,100,15,0,,Reduces accuracyby throwing sand,5
+29,headbutt,100,15,0,70,An attack that maymake foe flinch,1
+30,horn-attack,100,25,0,65,An attack using ahorn to jab,1
+31,fury-attack,85,20,0,15,Jabs the target2-5 times,1
+32,horn-drill,30,5,0,,"A one-hit KO,drill attack",1
+33,tackle,100,35,0,40,A full-body chargeattack,1
+34,body-slam,100,15,0,85,An attack that maycause paralysis,1
+35,wrap,90,20,0,15,Squeezes the foefor 2-5 turns,1
+36,take-down,85,20,0,90,A tackle that alsohurts the user,1
+37,thrash,100,10,0,120,Works 2-3 turnsand confuses user,1
+38,double-edge,100,15,0,120,A tackle that alsohurts the user,1
+39,tail-whip,100,30,0,,Lowers the foe'sDEFENSE,1
+40,poison-sting,100,35,0,15,An attack that maypoison the target,4
+41,twineedle,100,20,0,25,Jabs the foe twiceusing stingers,7
+42,pin-missile,95,20,0,25,Fires pins thatstrike 2-5 times,7
+43,leer,100,30,0,,Reduces the foe'sDEFENSE,1
+44,bite,100,25,0,60,An attack that maycause flinching,17
+45,growl,100,40,0,,Reduces the foe'sATTACK,1
+46,roar,,20,-6,,Scares wild foesto end battle,1
+47,sing,55,15,0,,May cause the foeto fall asleep,1
+48,supersonic,55,20,0,,Sound waves thatcause confusion,1
+49,sonic-boom,90,20,0,,Always inflicts20HP damage,1
+50,disable,100,20,0,,"For four turns, this move prevents the target fromusing the move it last used",1
+51,acid,100,30,0,40,An attack that maylower DEFENSE,4
+52,ember,100,25,0,40,An attack that mayinflict a burn,10
+53,flamethrower,100,15,0,90,An attack that mayinflict a burn,10
+54,mist,,30,0,,Prevents statreduction,15
+55,water-gun,100,25,0,40,Squirts water toattack,11
+56,hydro-pump,80,5,0,110,The target is blasted by a huge volumeof water launched under great pressure,11
+57,surf,100,15,0,90,A strong water-type attack,11
+58,ice-beam,100,10,0,90,An attack that mayfreeze the foe,15
+59,blizzard,70,5,0,110,An attack that mayfreeze the foe,15
+60,psybeam,100,20,0,65,The target is attacked with a peculiar ray This mayalso leave the target confused,14
+61,bubble-beam,100,20,0,65,An attack that maylower SPEED,11
+62,aurora-beam,100,20,0,65,An attack that maylower ATTACK,15
+63,hyper-beam,90,5,0,150,1st turn: Attack2nd turn: Rest,1
+64,peck,100,35,0,35,"Jabs the foe witha beak, etc",3
+65,drill-peck,100,20,0,80,"A strong, spin­ning-peck attack",3
+66,submission,80,20,0,80,An attack that al­so hurts the user,2
+67,low-kick,100,20,0,,An attack that maycause flinching,2
+68,counter,100,20,-5,,Returns a physicalblow double,2
+69,seismic-toss,100,20,0,,Inflicts damage identicalto the user’s level,2
+70,strength,100,15,0,80,A powerful physi­cal attack,1
+71,absorb,100,25,0,20,Steals 1/2 of thedamage inflicted,12
+72,mega-drain,100,15,0,40,Steals 1/2 of thedamage inflicted,12
+73,leech-seed,90,10,0,,Steals HP from thefoe on every turn,12
+74,growth,,20,0,,Raises the SPCLATK rating,1
+75,razor-leaf,95,25,0,55,Has a high criti­cal hit ratio,12
+76,solar-beam,100,10,0,120,1st turn: Prepare2nd turn: Attack,12
+77,poison-powder,75,35,0,,A move that maypoison the foe,4
+78,stun-spore,75,30,0,,A move that mayparalyze the foe,12
+79,sleep-powder,75,15,0,,May cause the foeto fall asleep,12
+80,petal-dance,100,10,0,120,Works 2-3 turnsand confuses user,12
+81,string-shot,95,40,0,,A move that lowersthe foe's SPEED,7
+82,dragon-rage,100,10,0,,Always inflicts40HP damage,16
+83,fire-spin,85,15,0,35,Traps foe in firefor 2-5 turns,10
+84,thunder-shock,100,30,0,40,An attack that maycause paralysis,13
+85,thunderbolt,100,15,0,90,An attack that maycause paralysis,13
+86,thunder-wave,90,20,0,,A move that maycause paralysis,13
+87,thunder,70,10,0,110,An attack that maycause paralysis,13
+88,rock-throw,90,15,0,50,Drops rocks on theenemy,6
+89,earthquake,100,10,0,100,Tough but uselessvs flying foes,5
+90,fissure,30,5,0,,"A ground-type,one-hit KO attack",5
+91,dig,100,10,0,80,1st turn: Burrow2nd turn: Attack,5
+92,toxic,90,10,0,,Poisons the foe with anintensifying toxin,4
+93,confusion,100,25,0,50,An attack that maycause confusion,14
+94,psychic,100,10,0,90,An attack that maylower SPCLDEF,14
+95,hypnosis,60,20,0,,May put the foe tosleep,14
+96,meditate,,40,0,,Raises the user'sATTACK,14
+97,agility,,30,0,,Sharply increasesthe user's SPEED,14
+98,quick-attack,100,30,1,40,Lets the user getin the first hit,1
+99,rage,100,20,0,20,Raises ATTACK ifthe user is hit,1
+100,teleport,,20,-6,,A move for fleeingfrom battle,14
+101,night-shade,100,15,0,,The user's levelequals damage HP,8
+102,mimic,,10,0,,Copies a move usedby the foe,1
+103,screech,85,40,0,,An earsplitting screech harshly lowersthe target’s Defense stat,1
+104,double-team,,15,0,,Heightens evasive­ness,1
+105,recover,,10,0,,Restores HP by 1/2the max HP,1
+106,harden,,30,0,,Raises the user'sDEFENSE,1
+107,minimize,,10,0,,Heightens evasive­ness,1
+108,smokescreen,100,20,0,,Lowers the foe'saccuracy,1
+109,confuse-ray,100,10,0,,A move that causesconfusion,8
+110,withdraw,,40,0,,Heightens theuser's DEFENSE,11
+111,defense-curl,,40,0,,Heightens theuser's DEFENSE,1
+112,barrier,,20,0,,Sharply increasesuser's DEFENSE,14
+113,light-screen,,30,0,,Ups SPCLDEF witha wall of light,14
+114,haze,,30,0,,Eliminates allstat changes,15
+115,reflect,,20,0,,Raises DEFENSEwith a barrier,14
+116,focus-energy,,30,0,,Raises the criti­cal hit ratio,1
+117,bide,,10,1,,Waits 2-3 turns &hits back double,1
+118,metronome,,10,0,,Randomly uses anyPOKéMON move,1
+119,mirror-move,,20,0,,Counters with thesame move,3
+120,self-destruct,100,5,0,200,Powerful but makesthe user faint,1
+121,egg-bomb,75,10,0,100,Eggs are hurled atthe foe,1
+122,lick,100,30,0,30,An attack that maycause paralysis,8
+123,smog,70,20,0,30,An attack that maypoison the foe,4
+124,sludge,100,20,0,65,An attack that maypoison the foe,4
+125,bone-club,85,20,0,65,An attack that maycause flinching,5
+126,fire-blast,85,5,0,110,An attack thatmay cause a burn,10
+127,waterfall,100,15,0,80,An aquatic chargeattack,11
+128,clamp,85,15,0,35,Traps the foe for2-5 turns,11
+129,swift,,20,0,60,An attack thatnever misses,1
+130,skull-bash,100,10,0,130,1st turn: Prepare2nd turn: Attack,1
+131,spike-cannon,100,15,0,20,Fires spikes tohit 2-5 times,1
+132,constrict,100,35,0,10,An attack that maylower SPEED,1
+133,amnesia,,20,0,,Sharply raises theuser's SPCLDEF,14
+134,kinesis,80,15,0,,Reduces the foe'saccuracy,14
+135,soft-boiled,,10,0,,Restores HP by 1/2the user's max HP,1
+136,high-jump-kick,90,10,0,130,May miss and hurtthe user,2
+137,glare,100,30,0,,A move that maycause paralysis,1
+138,dream-eater,100,15,0,100,Steals HP from asleeping victim,14
+139,poison-gas,90,40,0,,A move that maypoison the foe,4
+140,barrage,85,20,0,15,Throws orbs to hit2-5 times,1
+141,leech-life,100,10,0,80,Steals 1/2 of thedamage inflicted,7
+142,lovely-kiss,75,10,0,,May cause the foeto fall asleep,1
+143,sky-attack,90,5,0,140,1st turn: Prepare2nd turn: Attack,3
+144,transform,,10,0,,The user assumesthe foe's guise,1
+145,bubble,100,30,0,40,An attack that mayreduce SPEED,11
+146,dizzy-punch,100,10,0,70,An attack that maycause confusion,1
+147,spore,100,15,0,,The user scatters bursts of sporesthat induce sleep,12
+148,flash,100,20,0,,Blinds the foe toreduce accuracy,1
+149,psywave,100,15,0,,An attack withvariable power,14
+150,splash,,40,0,,Has no effectwhatsoever,1
+151,acid-armor,,20,0,,Sharply raises theuser's DEFENSE,4
+152,crabhammer,90,10,0,100,Has a high criti­cal hit ratio,11
+153,explosion,100,5,0,250,Inflicts severe damage butmakes the user faint,1
+154,fury-swipes,80,15,0,18,Quickly scratches2-5 times,1
+155,bonemerang,90,10,0,50,An attack thatstrikes twice,5
+156,rest,,10,0,,Sleep for 2 turnsto fully recover,14
+157,rock-slide,90,10,0,75,An attack that maycause flinching,6
+158,hyper-fang,90,15,0,80,An attack that maycause flinching,1
+159,sharpen,,30,0,,Reduces the polygon countand raises ATTACK,1
+160,conversion,,30,0,,Change user's typeto a move's type,1
+161,tri-attack,100,10,0,80,Fires three kindsof beams at once,1
+162,super-fang,90,10,0,,Cuts the foe's HPby 1/2,1
+163,slash,100,20,0,70,Has a high criti­cal hit ratio,1
+164,substitute,,10,0,,Makes a decoy with1/4 user's max HP,1
+165,struggle,,1,0,50,Used only if allPP are exhausted,1
+166,sketch,,1,0,,Copies the foe'smove permanently,1
+167,triple-kick,90,10,0,10,Hits three timeswith rising power,2
+168,thief,100,25,0,60,An attack that maysteal a held item,17
+169,spider-web,,10,0,,Prevents fleeingor switching,7
+170,mind-reader,,5,0,,Ensures the nextattack will hit,1
+171,nightmare,100,15,0,,A sleeper loses1/4 HP every turn,8
+172,flame-wheel,100,25,0,60,An attack that maycause a burn,10
+173,snore,100,15,0,50,An attack useableonly while asleep,1
+174,curse,,10,0,,Works differentlyfor ghost-types,8
+175,flail,100,15,0,,Stronger if theuser's HP is low,1
+176,conversion-2,,30,0,,The user's type ismade resistant,1
+177,aeroblast,95,5,0,100,Has a high criti­cal hit ratio,3
+178,cotton-spore,100,40,0,,Sharply reducesthe foe's SPEED,12
+179,reversal,100,15,0,,Stronger if theuser's HP is low,2
+180,spite,100,10,0,,Cuts the PP of thefoe's last move,8
+181,powder-snow,100,25,0,40,An attack that maycause freezing,15
+182,protect,,10,4,,Foils attack thatturn It may fail,1
+183,mach-punch,100,30,1,40,A fast punch thatlands first,2
+184,scary-face,100,10,0,,Sharply reducesthe foe's SPEED,1
+185,feint-attack,,20,0,60,An attack thatnever misses,17
+186,sweet-kiss,75,10,0,,A move that causesconfusion,18
+187,belly-drum,,10,0,,Reduces own HP tomaximize ATTACK,1
+188,sludge-bomb,100,10,0,90,An attack that maypoison the foe,4
+189,mud-slap,100,10,0,20,Reduces the foe'saccuracy,5
+190,octazooka,85,10,0,65,An attack that mayreduce accuracy,11
+191,spikes,,20,0,,Hurts foes whenthey switch out,5
+192,zap-cannon,50,5,0,120,An attack thatalways paralyzes,13
+193,foresight,,40,0,,Negates accuracyreduction moves,1
+194,destiny-bond,,5,0,,The foe faints ifthe user does,8
+195,perish-song,,5,0,,Both user and foefaint in 3 turns,1
+196,icy-wind,95,15,0,55,A chilling attack thatlowers the foe’s SPEED,15
+197,detect,,5,4,,Evades attack thatturn It may fail,2
+198,bone-rush,90,10,0,25,An attack thathits 2-5 times,5
+199,lock-on,,5,0,,Ensures the nextattack will hit,1
+200,outrage,100,10,0,120,Works 2-3 turnsand confuses user,16
+201,sandstorm,,10,0,,Inflicts damageevery turn,6
+202,giga-drain,100,10,0,75,Steals 1/2 of thedamage inflicted,12
+203,endure,,10,4,,Always leaves atleast 1HP,1
+204,charm,100,20,0,,Sharply lowers thefoe's ATTACK,18
+205,rollout,90,20,0,30,Attacks 5 turnswith rising power,6
+206,false-swipe,100,40,0,40,Leaves the foewith at least 1HP,1
+207,swagger,85,15,0,,Causes confusionand raises ATTACK,1
+208,milk-drink,,10,0,,Restores HP by 1/2the max HP,1
+209,spark,100,20,0,65,An attack that maycause paralysis,13
+210,fury-cutter,95,20,0,40,An attack that intensifieson each successive hit,7
+211,steel-wing,90,25,0,70,Stiff wings strikethe foe,9
+212,mean-look,,5,0,,Prevents fleeingor switching,1
+213,attract,100,15,0,,Makes the oppositegender infatuated,1
+214,sleep-talk,,10,0,,Randomly attackswhile asleep,1
+215,heal-bell,,5,0,,The user makes a soothing bell chimeto heal the status problems of all theparty Pokémon,1
+216,return,100,20,0,,An attack that increasesin power with friendship,1
+217,present,90,15,0,,A bomb that mayrestore HP,1
+218,frustration,100,20,0,,An attack based onlack of loyalty,1
+219,safeguard,,25,0,,Prevents allstatus problems,1
+220,pain-split,,20,0,,Adds user & foe'sHPs Shares total,1
+221,sacred-fire,95,5,0,100,An attack that mayinflict a burn,10
+222,magnitude,100,30,0,,A ground attackwith random power,5
+223,dynamic-punch,50,5,0,100,An attack thatalways confuses,2
+224,megahorn,85,10,0,120,A powerful chargeattack,7
+225,dragon-breath,100,20,0,60,A strong breathattack,16
+226,baton-pass,,40,0,,Switches whilekeeping effects,1
+227,encore,100,5,0,,Makes the foe re­peat 2-6 times,1
+228,pursuit,100,20,0,40,Heavily strikesswitching POKéMON,17
+229,rapid-spin,100,40,0,50,A high-speedspinning attack,1
+230,sweet-scent,100,20,0,,Reduces the foe'sevasiveness,1
+231,iron-tail,75,15,0,100,An attack that mayreduce DEFENSE,9
+232,metal-claw,95,35,0,50,An attack that mayup user's ATTACK,9
+233,vital-throw,,10,-1,70,A 2nd-strike movethat never misses,2
+234,morning-sun,,5,0,,Restores HP(varies by time),1
+235,synthesis,,5,0,,Restores HP(varies by time),12
+236,moonlight,,5,0,,Restores HP(varies by time),18
+237,hidden-power,100,15,0,60,The power varieswith the POKéMON,1
+238,cross-chop,80,5,0,100,Has a high criti­cal hit ratio,2
+239,twister,100,20,0,40,Whips up a tornadoto attack,16
+240,rain-dance,,5,0,,Boosts water-typemoves for 5 turns,11
+241,sunny-day,,5,0,,Boosts fire-typemoves for 5 turns,10
+242,crunch,100,15,0,80,An attack that maylower SPCLDEF,17
+243,mirror-coat,100,20,-5,,Counters a SPCLATK move double,14
+244,psych-up,,10,0,,Copies the foe'sstat changes,1
+245,extreme-speed,100,5,2,80,A powerful first-strike move,1
+246,ancient-power,100,5,0,60,An attack that mayraise all stats,6
+247,shadow-ball,100,15,0,80,An attack that maylower SPCLDEF,8
+248,future-sight,100,10,0,120,An attack thathits on 3rd turn,14
+249,rock-smash,100,15,0,40,A rock-crushing attackthat may lower DEFENSE,2
+250,whirlpool,85,15,0,35,Traps the foe for2-5 turns,11
+251,beat-up,100,10,0,,Party POKéMON joinin the attack,17
+252,fake-out,100,10,3,40,"A 1st-turn, 1st-strike movethat causes flinching",1
+253,uproar,100,10,0,90,Causes an uproar for 2 to 5turns and prevents sleep,1
+254,stockpile,,20,0,,Charges up power for up to3 turns,1
+255,spit-up,100,10,0,,Releases stockpiled power(the more the better),1
+256,swallow,,10,0,,Absorbs stockpiled powerand restores HP,1
+257,heat-wave,90,10,0,95,Exhales a hot breath on thefoe May inflict a burn,10
+258,hail,,10,0,,Summons a hailstorm thatstrikes every turn,15
+259,torment,100,15,0,,Torments the foe and stopssuccessive use of a move,17
+260,flatter,100,15,0,,"Confuses the foe, butraises its SP ATK",17
+261,will-o-wisp,85,15,0,,Inflicts a burn on the foewith intense fire,10
+262,memento,100,10,0,,The user faints and lowersthe foe’s abilities,17
+263,facade,100,20,0,70,"Boosts ATTACK when burned,paralyzed, or poisoned",1
+264,focus-punch,100,20,-3,150,A powerful loyalty attackThe user flinches if hit,2
+265,smelling-salts,100,10,0,70,"Powerful against paralyzedfoes, but also heals them",1
+266,follow-me,,20,2,,Draws attention to makefoes attack only the user,1
+267,nature-power,,20,0,,The type of attack variesdepending on the location,1
+268,charge,,20,0,,Charges power to boost theelectric move used next,13
+269,taunt,100,20,0,,Taunts the foe into onlyusing attack moves,17
+270,helping-hand,,20,5,,Boosts the power of therecipient’s moves,1
+271,trick,100,10,0,,Tricks the foe into tradingheld items,14
+272,role-play,,10,0,,Mimics the target andcopies its special ability,14
+273,wish,,10,0,,A wish that restores HPIt takes time to work,1
+274,assist,,20,0,,Attacks randomly with oneof the partner’s moves,1
+275,ingrain,,20,0,,Lays roots that restore HPThe user can’t switch out,12
+276,superpower,100,5,0,120,"Boosts strength sharply,but lowers abilities",2
+277,magic-coat,,15,4,,Reflects special effectsback to the attacker,14
+278,recycle,,10,0,,Recycles a used item forone more use,1
+279,revenge,100,10,-4,60,An attack that gains powerif injured by the foe,2
+280,brick-break,100,15,0,75,Destroys barriers such asREFLECT and causes damage,2
+281,yawn,,10,0,,"Lulls the foe into yawning,then sleeping next turn",1
+282,knock-off,100,20,0,65,Knocks down the foe’s helditem to prevent its use,17
+283,endeavor,100,5,0,,Gains power if the user’s HPis lower than the foe’s HP,1
+284,eruption,100,5,0,150,"The higher the user’s HP,the more damage caused",10
+285,skill-swap,,10,0,,The user swaps specialabilities with the target,14
+286,imprison,,10,0,,Prevents foes from usingmoves known by the user,14
+287,refresh,,20,0,,"Heals poisoning, paralysis,or a burn",1
+288,grudge,,5,0,,"If the user faints, deletesthe PP of the final move",8
+289,snatch,,10,4,,Steals the effects of themove the foe uses next,17
+290,secret-power,100,20,0,70,An attack with effectsthat vary by location,1
+291,dive,100,10,0,80,Dives underwater the firstturn and strikes next turn,11
+292,arm-thrust,100,20,0,15,Straight-arm punches thatstrike the foe 2 to 5 times,2
+293,camouflage,,20,0,,Alters the POKéMON’s typedepending on the location,1
+294,tail-glow,,20,0,,Flashes a light that sharplyraises SP ATK,7
+295,luster-purge,100,5,0,70,Attacks with a burst oflight May lower SP DEF,14
+296,mist-ball,100,5,0,70,Attacks with a flurry ofdown May lower SP ATK,14
+297,feather-dance,100,15,0,,Envelops the foe with downto sharply reduce ATTACK,3
+298,teeter-dance,100,20,0,,Confuses all POKéMON onthe scene,1
+299,blaze-kick,90,10,0,85,A kick with a high critical-hit ratio May cause a burn,10
+300,mud-sport,,15,0,,Covers the user in mud toraise electrical resistance,5
+301,ice-ball,90,20,0,30,A 5-turn attack that gainspower on successive hits,15
+302,needle-arm,100,15,0,60,Attacks with thorny armsMay cause flinching,12
+303,slack-off,,10,0,,Slacks off and restoreshalf the maximum HP,1
+304,hyper-voice,100,10,0,90,A loud attack that usessound waves to injure,1
+305,poison-fang,100,15,0,50,A sharp-fanged attackMay badly poison the foe,4
+306,crush-claw,95,10,0,75,Tears at the foe with sharpclaws May lower DEFENSE,1
+307,blast-burn,90,5,0,150,"Powerful, but leaves theuser immobile the next turn",10
+308,hydro-cannon,90,5,0,150,"Powerful, but leaves theuser immobile the next turn",11
+309,meteor-mash,90,10,0,90,Fires a meteor-like punchMay raise ATTACK,9
+310,astonish,100,15,0,30,An attack that may shockthe foe into flinching,8
+311,weather-ball,100,10,0,50,The move’s type and powerchange with the weather,1
+312,aromatherapy,,5,0,,Heals all status problemswith a soothing scent,12
+313,fake-tears,100,20,0,,Feigns crying to sharplylower the foe’s SP DEF,17
+314,air-cutter,95,25,0,60,Hacks with razorlike windHigh critical-hit ratio,3
+315,overheat,90,5,0,130,"Allows a full-power attack,but sharply lowers SP ATK",10
+316,odor-sleuth,,40,0,,Negates the foe’s effortsto heighten evasiveness,1
+317,rock-tomb,95,15,0,60,Stops the foe from movingwith rocks and cuts SPEED,6
+318,silver-wind,100,5,0,60,A powdery attack that mayraise abilities,7
+319,metal-sound,85,40,0,,Emits a horrible screechthat sharply lowers SP DEF,9
+320,grass-whistle,55,15,0,,Lulls the foe into sleepwith a pleasant melody,12
+321,tickle,100,20,0,,Makes the foe laugh tolower ATTACK and DEFENSE,1
+322,cosmic-power,,20,0,,Raises DEFENSE and SP DEFwith a mystic power,14
+323,water-spout,100,5,0,150,Inflicts more damage if theuser’s HP is high,11
+324,signal-beam,100,15,0,75,A strange beam attack thatmay confuse the foe,7
+325,shadow-punch,,20,0,60,An unavoidable punch thatis thrown from shadows,8
+326,extrasensory,100,20,0,80,Attacks with a peculiarpower May cause flinching,14
+327,sky-uppercut,90,15,0,85,An uppercut thrown as ifleaping into the sky,2
+328,sand-tomb,85,15,0,35,The user traps the target inside a harshly ragingsandstorm for four to five turns,5
+329,sheer-cold,30,5,0,,A chilling attack thatcauses fainting if it hits,15
+330,muddy-water,85,10,0,90,Attacks with muddy waterMay lower accuracy,11
+331,bullet-seed,100,30,0,25,Shoots 2 to 5 seeds in a rowto strike the foe,12
+332,aerial-ace,,20,0,60,An extremely speedy andunavoidable attack,3
+333,icicle-spear,100,30,0,25,Attacks the foe by firing2 to 5 icicles in a row,15
+334,iron-defense,,15,0,,Hardens the body’s surfaceto sharply raise DEFENSE,9
+335,block,,5,0,,Blocks the foe’s way toprevent escape,1
+336,howl,,40,0,,Howls to raise the spiritand boosts ATTACK,1
+337,dragon-claw,100,15,0,80,Slashes the foe with sharpclaws,16
+338,frenzy-plant,90,5,0,150,"Powerful, but leaves theuser immobile the next turn",12
+339,bulk-up,,20,0,,Bulks up the body to boostboth ATTACK and DEFENSE,2
+340,bounce,85,5,0,85,"Bounces up, then down thenext turn May paralyze",3
+341,mud-shot,95,15,0,55,Hurls mud at the foe andreduces SPEED,5
+342,poison-tail,100,25,0,50,Has a high critical-hitratio May also poison,4
+343,covet,100,25,0,60,Cutely begs to obtain anitem held by the foe,1
+344,volt-tackle,100,15,0,120,A life-risking tackle thatslightly hurts the user,13
+345,magical-leaf,,20,0,60,Attacks with a strange leafthat cannot be evaded,12
+346,water-sport,,15,0,,The user becomes soaked toraise resistance to fire,11
+347,calm-mind,,20,0,,Raises SP ATK and SP DEFby focusing the mind,14
+348,leaf-blade,100,15,0,90,Slashes with a sharp leafHigh critical-hit ratio,12
+349,dragon-dance,,20,0,,A mystical dance that upsATTACK and SPEED,16
+350,rock-blast,90,10,0,25,Hurls boulders at the foe2 to 5 times in a row,6
+351,shock-wave,,20,0,60,A fast and unavoidableelectric attack,13
+352,water-pulse,100,20,0,60,Attacks with ultrasonicwaves May confuse the foe,11
+353,doom-desire,100,5,0,140,Summons strong sunlight toattack 2 turns later,9
+354,psycho-boost,90,5,0,140,"Allows a full-power attack,but sharply lowers SP ATK",14
+355,roost,,10,0,,The user lands andrests its bodyIt restores theuser’s HP by up tohalf of its max HP,3
+356,gravity,,5,0,,"Gravity is intensifiedfor five turns, makingmoves involving flyingunusable andnegating Levitation",14
+357,miracle-eye,,40,0,,Enables the user tohit a Ghost type withany type of move Italso enables the userto hit an evasive foe,14
+358,wake-up-slap,100,10,0,70,"This attack inflictshigh damage on asleeping foe Italso wakes the foeup, however",2
+359,hammer-arm,90,10,0,100,"The user swings andhits with its strongand heavy fistIt lowers the user’sSpeed, however",2
+360,gyro-ball,100,5,0,,"The user tackles thefoe with a high-speedspin The slower theuser, the greaterthe damage",9
+361,healing-wish,,10,0,,"The user faints Inreturn, the Pokémontaking its place willhave its HP restoredand status cured",14
+362,brine,100,10,0,65,"If the foe’s HP isdown to about half,this attack will hitwith double thepower",11
+363,natural-gift,100,15,0,,The user draws powerto attack by usingits held BerryThe Berry determinesits type and power,1
+364,feint,100,10,2,30,An attack that hits afoe using Protect orDetect It also liftsthe effects of thosemoves,1
+365,pluck,100,20,0,60,"The user pecks thefoe If the foe isholding a Berry, theuser plucks it andgains its effect",3
+366,tailwind,,15,0,,The user whips up aturbulent whirlwindthat ups the Speedof all party Pokémonfor three turns,3
+367,acupressure,,30,0,,"The user appliespressure to stresspoints, sharplyboosting one of itsstats",1
+368,metal-burst,100,10,0,,The user retaliatesagainst the foe thatlast inflicted damageon it with muchgreater power,9
+369,u-turn,100,20,0,70,"After making itsattack, the userrushes back to switchplaces with a partyPokémon in waiting",7
+370,close-combat,100,5,0,120,The user fights thefoe in close withoutguarding itself Italso cuts the user’sDefense and Sp Def,2
+371,payback,100,10,0,50,"If the user can usethis attack after thefoe attacks, itspower is doubled",17
+372,assurance,100,10,0,60,"If the foe hasalready taken somedamage in the sameturn, this attack’spower is doubled",17
+373,embargo,100,15,0,,It prevents the foefrom using its helditem Its Trainer isalso prevented fromusing items on it,17
+374,fling,100,10,0,,The user flings itsheld item at the foeto attack Its powerand effects dependon the item,17
+375,psycho-shift,100,10,0,,"Using its psychicpower of suggestion,the user transfersits status problemsto the target",14
+376,trump-card,,5,0,,"The fewer PP this move has, the greaterits attack power",1
+377,heal-block,100,15,0,,The user preventsthe foe from usingany HP-recoverymoves for five turns,14
+378,wring-out,100,5,0,,"The user powerfullywrings the foeThe more HP the foehas, the greater thisattack’s power",1
+379,power-trick,,10,0,,The user employs itspsychic power toswitch its Attackwith its Defensestat,14
+380,gastro-acid,100,10,0,,The user hurls up itsstomach acids onthe foe The fluideliminates the effectof the foe’s ability,4
+381,lucky-chant,,30,0,,"The user chants anincantation towardthe sky, preventingthe foe from landingcritical hits",1
+382,me-first,,20,0,,The user tries to cutahead of the foe tosteal and use thefoe’s intended movewith greater power,1
+383,copycat,,20,0,,The user mimics themove used immediatelybefore it The movefails if no other movehas been used yet,1
+384,power-swap,,10,0,,The user employs itspsychic power toswitch changes toits Attack andSp Atk with the foe,14
+385,guard-swap,,10,0,,The user employs itspsychic power toswitch changes toits Defense andSp Def with the foe,14
+386,punishment,100,5,0,,This attack’s powerincreases the morethe foe has poweredup with stat changes,17
+387,last-resort,100,5,0,140,This move can be usedonly after the userhas used all theother moves it knowsin the battle,1
+388,worry-seed,100,10,0,,A seed that causesworry is planted onthe foe It preventssleep by making itsability Insomnia,12
+389,sucker-punch,100,5,1,70,"This move enables theuser to attack firstIt fails if the foe isnot readying anattack, however",17
+390,toxic-spikes,,20,0,,The user lays a trapof poison spikes atthe foe’s feet Theypoison foes thatswitch into battle,4
+391,heart-swap,,10,0,,The user employs its psychic power to switch statchanges with the target,14
+392,aqua-ring,,20,0,,The user envelopsitself in a veil madeof water It regainssome HP on everyturn,11
+393,magnet-rise,,10,0,,The user levitatesusing electricallygenerated magnetismfor five turns,13
+394,flare-blitz,100,15,0,120,"The user cloaksitself in fire andcharges at the foeThe user sustainsserious damage, too",10
+395,force-palm,100,10,0,60,The foe is attackedwith a shock waveIt may also leave thetarget paralyzed,2
+396,aura-sphere,,20,0,80,The user looses ablast of aura powerfrom deep within itsbody This move iscertain to hit,2
+397,rock-polish,,20,0,,The user polishes itsbody to reduce dragIt can sharply raisethe Speed stat,6
+398,poison-jab,100,20,0,80,The foe is stabbedwith a tentacle orarm steeped inpoison It may alsopoison the foe,4
+399,dark-pulse,100,15,0,80,The user releases ahorrible aura imbuedwith dark thoughtsIt may also make thetarget flinch,17
+400,night-slash,100,15,0,70,The user slashes thefoe the instant anopportunity arisesIt has a highcritical-hit ratio,17
+401,aqua-tail,90,10,0,90,The user attacks byswinging its tail as ifit were a vicious wavein a raging storm,11
+402,seed-bomb,100,15,0,80,The user slams abarrage of hard-shelled seedsdown on the foefrom above,12
+403,air-slash,95,15,0,75,The user attacks witha blade of air thatslices even the skyIt may also make thetarget flinch,3
+404,x-scissor,100,15,0,80,The user slashes atthe foe by crossingits scythes or clawsas if they were a pairof scissors,7
+405,bug-buzz,100,10,0,90,The user vibrates itswings to generate adamaging sound waveIt may also lower thefoe’s Sp Def stat,7
+406,dragon-pulse,100,10,0,85,The foe is attackedwith a shock wavegenerated by theuser’s gaping mouth,16
+407,dragon-rush,75,10,0,100,The user tackles thefoe while exhibitingoverwhelming menaceIt may also make thetarget flinch,16
+408,power-gem,100,20,0,80,The user attacks witha ray of light thatsparkles as if it weremade of gemstones,6
+409,drain-punch,100,10,0,75,An energy-drainingpunch The user’sHP is restored byhalf the damage takenby the target,2
+410,vacuum-wave,100,30,1,40,The user whirls itsfists to send a waveof pure vacuum atthe foe This movealways goes first,2
+411,focus-blast,70,5,0,120,The user heightensits mental focus andunleashes its powerIt may also lower thetarget’s Sp Def,2
+412,energy-ball,100,10,0,90,The user draws powerfrom nature andfires it at the foeIt may also lower thetarget’s Sp Def,12
+413,brave-bird,100,15,0,120,The user tucks inits wings and chargesfrom a low altitudeThe user also takesserious damage,3
+414,earth-power,100,10,0,90,The user makes theground under the foeerupt with powerIt may also lower thetarget’s Sp Def,5
+415,switcheroo,100,10,0,,The user trades helditems with the foefaster than the eyecan follow,17
+416,giga-impact,90,5,0,150,The user charges atthe foe using everybit of its powerThe user must reston the next turn,1
+417,nasty-plot,,20,0,,The user stimulatesits brain by thinkingbad thoughtsIt sharply raises theuser’s Sp Atk,17
+418,bullet-punch,100,30,1,40,The user strikeswith a tough punch asfast as a bulletThis move always goesfirst,9
+419,avalanche,100,10,-4,60,An attack move thatinflicts double thedamage if the userhas been hurt by thefoe in the same turn,15
+420,ice-shard,100,30,1,40,The user flashfreezes chunks ofice and hurls themThis move always goesfirst,15
+421,shadow-claw,100,15,0,70,The user slashes witha sharp claw madefrom shadowsIt has a highcritical-hit ratio,8
+422,thunder-fang,95,15,0,65,The user bites withelectrified fangsIt may also make thefoe flinch or becomeparalyzed,13
+423,ice-fang,95,15,0,65,The user bites withcold-infused fangsIt may also make thefoe flinch or freeze,15
+424,fire-fang,95,15,0,65,The user bites withflame-cloaked fangsIt may also make thefoe flinch or sustaina burn,10
+425,shadow-sneak,100,30,1,40,The user extends itsshadow and attacksthe foe from behindThis move always goesfirst,8
+426,mud-bomb,85,10,0,65,The user launches ahard-packed mud ballto attackIt may also lower thetarget’s accuracy,5
+427,psycho-cut,100,20,0,70,The user tears atthe foe with bladesformed by psychicpower It has a highcritical-hit ratio,14
+428,zen-headbutt,90,15,0,80,The user focuses itswillpower to its headand rams the foeIt may also make thetarget flinch,14
+429,mirror-shot,85,10,0,65,The user looses aflash of energy fromits polished bodyIt may also lower thetarget’s accuracy,9
+430,flash-cannon,100,10,0,80,The user gathers allits light energy andreleases it at onceIt may also lower thefoe’s Sp Def stat,9
+431,rock-climb,85,20,0,90,A charging attackthat may also leavethe foe confusedIt can also be usedto scale rocky walls,1
+432,defog,,15,0,,"Obstacles are moved,reducing the foe’sevasion stat It canalso be used toclear deep fog, etc",3
+433,trick-room,,5,-7,,The user creates abizarre area in whichslower Pokémon getto move first for fiveturns,14
+434,draco-meteor,90,5,0,130,Comets are summoneddown from the skyThe attack’s recoilsharply reduces theuser’s Sp Atk stat,16
+435,discharge,100,15,0,80,A flare of electricityis loosed to strikeall Pokémon in battleIt may also causeparalysis,13
+436,lava-plume,100,15,0,80,An inferno of scarletflames washes overall Pokémon in battleIt may also inflictburns,10
+437,leaf-storm,90,5,0,130,A storm of sharpleaves is whipped upThe attack’s recoilsharply reduces theuser’s Sp Atk stat,12
+438,power-whip,85,10,0,120,The user violentlywhirls its vines ortentacles to harshlylash the foe,12
+439,rock-wrecker,90,5,0,150,"The user launches ahuge boulder at thefoe to attackIt must rest on thenext turn, however",6
+440,cross-poison,100,20,0,70,A slashing attackthat may also leavethe target poisonedIt has a highcritical-hit ratio,4
+441,gunk-shot,80,5,0,120,The user shootsfilthy garbage at thefoe to attackIt may also poisonthe target,4
+442,iron-head,100,15,0,80,The foe slams thetarget with itssteel-hard headIt may also make thetarget flinch,9
+443,magnet-bomb,,20,0,60,The user launches asteel bomb thatsticks to the targetThis attack will notmiss,9
+444,stone-edge,80,5,0,100,The user stabs thefoe with a sharpenedstone It has a highcritical-hit ratio,6
+445,captivate,100,20,0,,"If it is the oppositegender of the user,the foe is charmedinto sharply loweringits Sp Atk stat",1
+446,stealth-rock,,20,0,,The user lays a trapof levitating stonesaround the foe Thetrap hurts foes thatswitch into battle,6
+447,grass-knot,100,20,0,,"The user snares thefoe with grass andtrips it The heavierthe foe, the greaterthe damage",12
+448,chatter,100,20,0,65,The user attacksusing a sound wavebased on words it haslearned It may alsoconfuse the foe,3
+449,judgment,100,10,0,100,The user releasescountless shots oflight Its type varieswith the kind of Platethe user is holding,1
+450,bug-bite,100,20,0,60,"The user bites thefoe If the foe isholding a Berry, theuser eats it andgains its effect",7
+451,charge-beam,90,10,0,50,The user fires aconcentrated bundleof electricity It mayalso raise the user’sSp Atk stat,13
+452,wood-hammer,100,15,0,120,The user slams itsrugged body into thefoe to attack Theuser also sustainsserious damage,12
+453,aqua-jet,100,20,1,40,The user lunges atthe foe at a speedthat makes it almostinvisible It is sureto strike first,11
+454,attack-order,100,15,0,90,The user calls outits underlings topummel the foeIt has a highcritical-hit ratio,7
+455,defend-order,,10,0,,"The user calls outits underlings tomake a living shield,raising its Defenseand Sp Def stats",7
+456,heal-order,,10,0,,The user calls outits underlings to healit The user regainsup to half of itsmax HP,7
+457,head-smash,80,5,0,150,The user delivers alife-endangering headbutt at full powerThe user also takesterrible damage,6
+458,double-hit,90,10,0,35,"The user slams thefoe with a tail, etcThe target is hittwice in a row",1
+459,roar-of-time,90,5,0,150,The user blasts thefoe with power thatdistorts even timeThe user must reston the next turn,16
+460,spacial-rend,95,5,0,100,The user tears thefoe along with thespace around itThis move has a highcritical-hit ratio,16
+461,lunar-dance,,10,0,,"The user faints Inreturn, the Pokémontaking its place willhave its status andHP fully restored",14
+462,crush-grip,100,5,0,,The foe is crushedwith great forceThe attack is morepowerful the more HPthe foe has left,1
+463,magma-storm,75,5,0,100,The foe becomestrapped within amaelstrom of firethat rages for twoto five turns,10
+464,dark-void,50,10,0,,The foe is draggedinto a world of totaldarkness that puts itto sleep,17
+465,seed-flare,85,5,0,120,The user generatesa shock wave fromwithin its bodyIt may also lower thetarget’s Sp Def,12
+466,ominous-wind,100,5,0,60,The user creates agust of repulsivewind It may alsoraise all the user’sstats at once,8
+467,shadow-force,100,5,0,120,"The user disappears,then strikes the foeon the second turnIt hits even if thefoe used Protect",8
+468,hone-claws,,15,0,,The user sharpens its claws toboost its Attack stat and accuracy,17
+469,wide-guard,,10,3,,"The user and its allies are protected fromwide-ranging attacks for one turn If usedin succession, its chance of failing rises",6
+470,guard-split,,10,0,,The user employs its psychic power toaverage its Defense and Sp Def statswith those of its target’s,14
+471,power-split,,10,0,,The user employs its psychic power toaverage its Attack and Sp Atk statswith those of the target’s,14
+472,wonder-room,,10,0,,The user creates a bizarre area in whichPokémon’s Defense and Sp Defstats are swapped for five turns,14
+473,psyshock,100,10,0,80,The user materializes an oddpsychic wave to attack the targetThis attack does physical damage,14
+474,venoshock,100,10,0,65,The user drenches the target in a specialpoisonous liquid Its power is doubledif the target is poisoned,4
+475,autotomize,,15,0,,The user sheds part of its bodyto make itself lighter and sharplyraise its Speed stat,9
+476,rage-powder,,20,2,,The user scatters a cloud of irritatingpowder to draw attention to itselfOpponents aim only at the user,7
+477,telekinesis,,15,0,,The user makes the target float with itspsychic power The target is easier tohit for three turns,14
+478,magic-room,,10,0,,The user creates a bizarre areain which Pokémon’s held itemslose their effects for five turns,14
+479,smack-down,100,15,0,50,The user throws a stone or projectile toattack an opponent A flying Pokémon willfall to the ground when hit,6
+480,storm-throw,100,10,0,60,The user strikes the target with a fierceblow This attack always results in acritical hit,2
+481,flame-burst,100,15,0,70,The user attacks the target with abursting flame The bursting flame damagesPokémon next to the target as well,10
+482,sludge-wave,100,10,0,95,It swamps the area around the user with agiant sludge waveIt may also poison those hit,4
+483,quiver-dance,,20,0,,"The user lightly performs a beautiful,mystic dance It boosts the user’sSp Atk, Sp Def, and Speed stats",7
+484,heavy-slam,100,10,0,,"The user slams into the target with itsheavy body The more the user outweighsthe target, the greater its damage",9
+485,synchronoise,100,10,0,120,"Using an odd shock wave, the userinflicts damage on any Pokémon of the sametype in the area around it",14
+486,electro-ball,100,10,0,,"The user hurls an electric orbat the target The faster the user isthan the target, the greater the damage",13
+487,soak,100,20,0,,The user shoots a torrent of waterat the target and changesthe target’s type to Water,11
+488,flame-charge,100,20,0,50,"The user cloaks itself with flame andattacks Building up more power,it raises the user’s Speed stat",10
+489,coil,,20,0,,The user coils up and concentratesThis raises its Attack and Defense statsas well as its accuracy,4
+490,low-sweep,100,20,0,65,"The user attacks the target’s legsswiftly, reducing the target’sSpeed stat",2
+491,acid-spray,100,20,0,40,The user spits fluid that works to meltthe target This harshly reducesthe target’s Sp Def stat,4
+492,foul-play,100,15,0,95,"The user turns the target’s poweragainst it The higher the target’sAttack stat, the greater the damage",17
+493,simple-beam,100,15,0,,The user’s mysterious psychic wavechanges the target’s Ability to Simple,1
+494,entrainment,100,15,0,,"The user dances with an odd rhythm thatcompels the target to mimic it, making thetarget’s Ability the same as the user’s",1
+495,after-you,,15,0,,The user helps the target and makes ituse its move right after the user,1
+496,round,100,15,0,60,The user attacks the target with a songOthers can join in the Round and makethe attack do greater damage,1
+497,echoed-voice,100,15,0,40,"The user attacks the target with anechoing voice If this move is usedevery turn, it does greater damage",1
+498,chip-away,100,20,0,70,"Looking for an opening, the user strikescontinually The target’s stat changesdon’t affect this attack’s damage",1
+499,clear-smog,,15,0,50,The user attacks by throwing a clump ofspecial mud All status changes arereturned to normal,4
+500,stored-power,100,10,0,20,"The user attacks the target with storedpower The more the user’s stats areraised, the greater the damage",14
+501,quick-guard,,15,3,,"The user protects itself and its alliesfrom priority moves If used insuccession, its chance of failing rises",2
+502,ally-switch,,15,2,,The user teleports using a strange powerand switches its place with one ofits allies,14
+503,scald,100,15,0,80,The user shoots boiling hot water atits target It may also leave the targetwith a burn,11
+504,shell-smash,,15,0,,"The user breaks its shell, lowering itsDefense and Sp Def stats but sharplyraising Attack, Sp Atk, and Speed stats",1
+505,heal-pulse,,10,0,,The user emits a healing pulse whichrestores the target’s HP by up tohalf of its max HP,14
+506,hex,100,10,0,65,This relentless attack does massivedamage to a target affectedby status problems,8
+507,sky-drop,100,10,0,60,"The user takes the target into the sky,then drops it during the next turnThe target cannot attack while in the sky",3
+508,shift-gear,,10,0,,"The user rotates its gears, raising itsAttack and sharply raising its Speed",9
+509,circle-throw,90,10,-6,60,"The user throws the target and drags outanother Pokémon in its partyIn the wild, the battle ends",2
+510,incinerate,100,15,0,60,"The user attacks the target with fireIf the target is holding a Berry, theBerry becomes burnt up and unusable",10
+511,quash,100,15,0,,The user suppresses the target andmakes its move go last,17
+512,acrobatics,100,15,0,55,"The user nimbly strikes the targetIf the user is not holding an item,this attack inflicts massive damage",3
+513,reflect-type,,15,0,,"The user reflects the target’s type,making it the same type as the target",1
+514,retaliate,100,5,0,70,"The user gets revenge for a fainted allyIf an ally fainted in the previous turn,this attack’s damage increases",1
+515,final-gambit,100,5,0,,The user risks everything to attack itstarget The user faints but does damageequal to the user’s HP,2
+516,bestow,,15,0,,The user passes its held item to thetarget when the target isn’t holdingan item,1
+517,inferno,50,5,0,100,The user attacks by engulfing the targetin an intense fire It leaves the targetwith a burn,10
+518,water-pledge,100,10,0,80,"A column of water strikes the target Whencombined with its fire equivalent, thedamage increases and a rainbow appears",11
+519,fire-pledge,100,10,0,80,"A column of fire hits opposing PokémonWhen used with its Grass equivalent, itsdamage increases into a vast sea of fire",10
+520,grass-pledge,100,10,0,80,"A column of grass hits opposing PokémonWhen used with its water equivalent, itsdamage increases into a vast swamp",12
+521,volt-switch,100,20,0,70,"After making its attack, the userrushes back to switch places witha party Pokémon in waiting",13
+522,struggle-bug,100,20,0,50,"While resisting, the user attacks theopposing Pokémon The targets’Sp Atk stat is reduced",7
+523,bulldoze,100,20,0,60,The user stomps down on the groundand attacks everything in the area HitPokémon’s Speed stat is reduced,5
+524,frost-breath,90,10,0,60,The user blows a cold breath on thetarget This attack always results ina critical hit,15
+525,dragon-tail,90,10,-6,60,"The user knocks away the target anddrags out another Pokémon in its partyIn the wild, the battle ends",16
+526,work-up,,30,0,,"The user is roused, and its Attackand Sp Atk stats increase",1
+527,electroweb,95,15,0,55,The user captures and attacks opposingPokémon by using an electric net Itreduces the targets’ Speed stat,13
+528,wild-charge,100,15,0,90,The user shrouds itself in electricityand smashes into its targetIt also damages the user a little,13
+529,drill-run,95,10,0,80,The user crashes into its target whilerotating its body like a drillCritical hits land more easily,5
+530,dual-chop,90,15,0,40,The user attacks its target by hittingit with brutal strikesThe target is hit twice in a row,16
+531,heart-stamp,100,25,0,60,The user unleashes a vicious blow afterits cute act makes the target less waryIt may also make the target flinch,14
+532,horn-leech,100,10,0,75,The user drains the target’s energy withits horns The user’s HP is restoredby half the damage taken by the target,12
+533,sacred-sword,100,15,0,90,The user attacks by slicing with its longhorns The target’s stat changesdon’t affect this attack’s damage,2
+534,razor-shell,95,10,0,75,The user cuts its target with sharpshells This attack may also lower thetarget’s Defense stat,11
+535,heat-crash,100,10,0,,"The user slams its target with its flame-covered body The more the user outweighsthe target, the greater the damage",10
+536,leaf-tornado,90,10,0,65,The user attacks its target byencircling it in sharp leaves This attackmay also lower the target’s accuracy,12
+537,steamroller,100,20,0,65,The user crushes its targets by rollingover them with its rolled-up bodyThis attack may make the target flinch,7
+538,cotton-guard,,10,0,,"The user protects itself by wrappingits body in soft cotton, drasticallyraising the user’s Defense stat",12
+539,night-daze,95,10,0,85,The user lets loose a pitch-black shockwave at its target It may also lower thetarget’s accuracy,17
+540,psystrike,100,10,0,100,The user materializes an oddpsychic wave to attack the targetThis attack does physical damage,14
+541,tail-slap,85,10,0,25,The user attacks by striking the targetwith its hard tail It hits the target twoto five times in a row,1
+542,hurricane,70,10,0,110,The user attacks by wrapping its opponentin a fierce wind that flies up into the skyIt may also confuse the target,3
+543,head-charge,100,15,0,120,"The user charges its head into itstarget, using its powerful guard hairIt also damages the user a little",1
+544,gear-grind,85,15,0,50,The user attacks by throwingtwo steel gears at its target,9
+545,searing-shot,100,5,0,100,An inferno of scarlet flames torcheseverything around the user It mayleave targets with a burn,10
+546,techno-blast,100,5,0,120,The user fires a beam of light atits target The type changes dependingon the Drive the user holds,1
+547,relic-song,100,10,0,75,The user sings an ancient song and attacksby appealing to the hearts of thoselistening It may also induce sleep,1
+548,secret-sword,100,10,0,85,The user cuts with its long horn The oddpower contained in the horn does physicaldamage to the target,2
+549,glaciate,95,10,0,65,The user attacks by blowing freezing coldair at opposing Pokémon This attackreduces the targets’ Speed stat,15
+550,bolt-strike,85,5,0,130,"The user charges its target, surroundingitself with a great amount of electricityIt may leave the target with paralysis",13
+551,blue-flare,85,5,0,130,"The user attacks by engulfing the targetin an intense, yet beautiful, blue flameIt may leave the target with a burn",10
+552,fiery-dance,100,10,0,80,"Cloaked in flames, the user dancesand flaps its wings It may alsoraise the user’s Sp Atk stat",10
+553,freeze-shock,90,5,0,140,"On the second turn, the user hits thetarget with electrically charged iceIt may leave the target with paralysis",15
+554,ice-burn,90,5,0,140,"On the second turn, an ultracold,freezing wind surrounds the targetThis may leave the target with a burn",15
+555,snarl,95,15,0,55,"The user yells as if it is ranting aboutsomething, making the target’s Sp Atkstat decrease",17
+556,icicle-crash,90,10,0,85,The user attacks by harshly droppingan icicle onto the targetIt may also make the target flinch,15
+557,v-create,95,5,0,180,"With a hot flame on its forehead, the userhurls itself at its target It lowers theuser’s Defense, Sp Def, and Speed stats",10
+558,fusion-flare,100,5,0,100,The user brings down a giant flameThis attack does greater damage wheninfluenced by an enormous thunderbolt,10
+559,fusion-bolt,100,5,0,100,The user throws down a giant thunderboltThis attack does greater damagewhen influenced by an enormous flame,13
+560,flying-press,95,10,0,100,The user dives down onto the targetfrom the sky This move is Fightingand Flying type simultaneously,2
+561,mat-block,,10,0,,"Using a pulled-up mat as a shield, the userprotects itself and its allies from damaging movesThis does not stop status moves",2
+562,belch,90,10,0,120,The user lets out a damaging belchat the target The user must eat a heldBerry to use this move,4
+563,rototiller,,10,0,,"Tilling the soil, the user makes it easierfor plants to grow This raises the Attackand Sp Atk stats of Grass-type Pokémon",5
+564,sticky-web,,20,0,,"The user weaves a sticky net aroundthe opposing team, which lowers theirSpeed stat upon switching into battle",7
+565,fell-stinger,100,25,0,50,"When the user knocks out a targetwith this move, the user’s Attack statrises sharply",7
+566,phantom-force,100,10,0,90,"The user vanishes somewhere, then strikesthe target on the next turnThis move hits even if the target protects itself",8
+567,trick-or-treat,100,20,0,,The user takes the target trick-or-treatingThis adds Ghost type to the target’s type,8
+568,noble-roar,100,30,0,,"Letting out a noble roar, the userintimidates the target and lowersits Attack and Sp Atk stats",1
+569,ion-deluge,,25,1,,"The user disperses electrically chargedparticles, which changes Normal-typemoves to Electric-type moves",13
+570,parabolic-charge,100,20,0,65,The user attacks everything around itThe user’s HP is restored by halfthe damage taken by those hit,13
+571,forests-curse,100,20,0,,The user puts a forest curse on the targetAfflicted targets are now Grass type as well,12
+572,petal-blizzard,100,15,0,90,The user stirs up a violent petal blizzardand attacks everything around it,12
+573,freeze-dry,100,20,0,70,The user rapidly cools the targetThis may also leave the target frozenThis move is super effective on Water types,15
+574,disarming-voice,,15,0,40,"Letting out a charming cry, the user doesemotional damage to opposing PokémonThis attack never misses",18
+575,parting-shot,100,20,0,,"With a parting threat, the user lowersthe target’s Attack and Sp Atk statsThen it switches with a party Pokémon",17
+576,topsy-turvy,,20,0,,All stat changes affecting the targetturn topsy-turvy and become theopposite of what they were,17
+577,draining-kiss,100,10,0,50,The user steals the target’s energy with a kissThe user’s HP is restored by over halfof the damage taken by the target,18
+578,crafty-shield,,10,3,,The user protects itself and its allies fromstatus moves with a mysterious powerThis does not stop moves that do damage,18
+579,flower-shield,,10,0,,The user raises the Defense statof all Grass-type Pokémon in battlewith a mysterious power,18
+580,grassy-terrain,,10,0,,The user turns the ground under everyone’s feetto grass for five turns This restores the HP ofPokémon on the ground a little every turn,12
+581,misty-terrain,,10,0,,The user covers the ground under everyone’s feetwith mist for five turns This protects Pokémonon the ground from status conditions,18
+582,electrify,,20,0,,"If the target is electrified before it usesa move during that turn, the target’smove becomes Electric type",13
+583,play-rough,90,10,0,90,The user plays rough with the targetand attacks it This may also lowerthe target’s Attack stat,18
+584,fairy-wind,100,30,0,40,The user stirs up a fairy windand strikes the target with it,18
+585,moonblast,100,15,0,95,"Borrowing the power of the moon,the user attacks the targetThis may also lower the target’s Sp Atk stat",18
+586,boomburst,100,10,0,140,"The user attacks everything around itwith the destructive power of a terrible,explosive sound",1
+587,fairy-lock,,10,0,,"By locking down the battlefield,the user keeps all Pokémon fromfleeing during the next turn",18
+588,kings-shield,,10,4,,The user takes a defensive stance while it protectsitself from damage It also harshly lowers the Attackstat of any attacker who makes direct contact,9
+589,play-nice,,20,0,,"The user and the target become friends,and the target loses its will to fightThis lowers the target’s Attack stat",1
+590,confide,,20,0,,"The user tells the target a secret, and the targetloses its ability to concentrate This lowersthe target’s Sp Atk stat",1
+591,diamond-storm,95,5,0,100,The user whips up a storm of diamondsto damage opposing Pokémon This mayalso raise the user’s Defense stat,6
+592,steam-eruption,95,5,0,110,The user immerses the target in superheated steamThis may also leave the target with a burn,11
+593,hyperspace-hole,,5,0,80,"Using a hyperspace hole, the user appearsright next to the target and strikes Thisalso hits a target using Protect or Detect",14
+594,water-shuriken,100,20,1,15,The user hits the target with throwingstars two to five times in a rowThis move always goes first,11
+595,mystical-fire,100,10,0,75,"The user attacks by breathinga special, hot fire This alsolowers the target’s Sp Atk stat",10
+596,spiky-shield,,10,4,,"In addition to protecting the user from attacks,this move also damages any attacker whomakes direct contact",12
+597,aromatic-mist,,20,0,,The user raises the Sp Def stat of an allyPokémon by using a mysterious aroma,18
+598,eerie-impulse,100,15,0,,The user’s body generates an eerie impulseExposing the target to it harshly lowersthe target’s Sp Atk stat,13
+599,venom-drench,100,20,0,,"Opposing Pokémon are drenched in an oddpoisonous liquid This lowers the Attack,Sp Atk, and Speed stats of a poisoned target",4
+600,powder,100,20,1,,The user covers the target in a powderthat explodes and damages the targetif it uses a Fire-type move,7
+601,geomancy,,10,0,,"The user absorbs energy and sharply raisesits Sp Atk, Sp Def, and Speed statson the next turn",18
+602,magnetic-flux,,20,0,,"The user manipulates magnetic fields,which raises the Defense and Sp Def statsof ally Pokémon with the Plus or Minus Ability",13
+603,happy-hour,,30,0,,Using Happy Hour doublesthe amount of prize moneyreceived after battle,1
+604,electric-terrain,,10,0,,The user electrifies the ground undereveryone’s feet for five turnsPokémon on the ground no longer fall asleep,13
+605,dazzling-gleam,100,10,0,80,The user damages opposing Pokémonby emitting a powerful flash,18
+606,celebrate,,40,0,,The Pokémon congratulatesyou on your special day!,1
+607,hold-hands,,40,0,,The user and an ally hold handsThis makes them very happy,1
+608,baby-doll-eyes,100,30,1,,"The user stares at the target with its baby-dolleyes, which lowers its Attack stat This movealways goes first",18
+609,nuzzle,100,20,0,20,The user attacks by nuzzling its electrifiedcheeks against the target This also leavesthe target with paralysis,13
+610,hold-back,100,40,0,40,The user holds back when it attacksand the target is left with at least 1 HP,1
+611,infestation,100,20,0,20,The target is infested and attacked forfour to five turnsThe target can’t flee during this time,7
+612,power-up-punch,100,20,0,40,Striking opponents over and over makesthe user’s fists harderHitting a target raises the Attack stat,2
+613,oblivion-wing,100,10,0,80,The user absorbs its target’s HPThe user’s HP is restored by over halfof the damage taken by the target,3
+614,thousand-arrows,100,10,0,90,This move also hits opposing Pokémonthat are in the air Those Pokémon areknocked down to the ground,5
+615,thousand-waves,100,10,0,90,The user attacks with a wavethat crawls along the groundThose hit can’t flee from battle,5
+616,lands-wrath,100,10,0,90,The user gathers the energy of the landand focuses that power on opposingPokémon to damage them,5
+617,light-of-ruin,90,5,0,140,"Drawing power from the Eternal Flower,the user fires a powerful beam of lightThis also damages the user quite a lot",18
+618,origin-pulse,85,10,0,110,The user attacks opposing Pokémon with countlessbeams of light that glow a deep and brilliant blue,11
+619,precipice-blades,85,10,0,120,The user attacks opposing Pokémon by manifestingthe power of the land in fearsome blades of stone,5
+620,dragon-ascent,100,5,0,120,"After soaring upward, the user attacks its target bydropping out of the sky at high speeds, although itlowers its own Defense and Sp Def in the process",3
+621,hyperspace-fury,,5,0,100,"Using its many arms, the user unleashes a barrage ofattacks that ignore the effects of moves like Protectand Detect This attack lowers the user’s Defense",17
+622,breakneck-blitz--physical,,1,0,,"The user builds up its momentum using its Z-Powerand crashes into the target at full speed The powervaries, depending on the original move",1
+623,breakneck-blitz--special,,1,0,,Dummy Data,1
+624,all-out-pummeling--physical,,1,0,,"The user rams an energy orb created by its Z-Powerinto the target with full force The power varies,depending on the original move",2
+625,all-out-pummeling--special,,1,0,,Dummy Data,2
+626,supersonic-skystrike--physical,,1,0,,"The user soars up with its Z-Power and plummetstoward the target at full speed The power varies,depending on the original move",3
+627,supersonic-skystrike--special,,1,0,,Dummy Data,3
+628,acid-downpour--physical,,1,0,,"The user creates a poisonous swamp using itsZ-Power and sinks the target into it at full forceThe power varies, depending on the original move",4
+629,acid-downpour--special,,1,0,,Dummy Data,4
+630,tectonic-rage--physical,,1,0,,"The user burrows deep into the ground and slamsinto the target with the full force of its Z-PowerThe power varies, depending on the original move",5
+631,tectonic-rage--special,,1,0,,Dummy Data,5
+632,continental-crush--physical,,1,0,,"The user summons a huge rock mountain using itsZ-Power and drops it onto the target with full forceThe power varies, depending on the original move",6
+633,continental-crush--special,,1,0,,Dummy Data,6
+634,savage-spin-out--physical,,1,0,,"The user binds the target with full force withthreads of silk that the user spits using its Z-PowerThe power varies, depending on the original move",7
+635,savage-spin-out--special,,1,0,,Dummy Data,7
+636,never-ending-nightmare--physical,,1,0,,"Deep-seated grudges summoned by the user’sZ-Power trap the target The power varies,depending on the original move",8
+637,never-ending-nightmare--special,,1,0,,Dummy Data,8
+638,corkscrew-crash--physical,,1,0,,"The user spins very fast and rams into the targetwith the full force of its Z-Power The power varies,depending on the original move",9
+639,corkscrew-crash--special,,1,0,,Dummy Data,9
+640,inferno-overdrive--physical,,1,0,,The user breathes a stream of intense fire towardthe target with the full force of its Z-PowerThe power varies depending on the original move,10
+641,inferno-overdrive--special,,1,0,,Dummy Data,10
+642,hydro-vortex--physical,,1,0,,"The user creates a huge whirling current usingits Z-Power to swallow the target with full forceThe power varies, depending on the original move",11
+643,hydro-vortex--special,,1,0,,Dummy Data,11
+644,bloom-doom--physical,,1,0,,"The user collects energy from plants using itsZ-Power and attacks the target with full forceThe power varies, depending on the original move",12
+645,bloom-doom--special,,1,0,,Dummy Data,12
+646,gigavolt-havoc--physical,,1,0,,"The user hits the target with a powerful electriccurrent collected by its Z-Power The power varies,depending on the original move",13
+647,gigavolt-havoc--special,,1,0,,Dummy Data,13
+648,shattered-psyche--physical,,1,0,,"The user controls the target with its Z-Power andhurts the target with full force The power varies,depending on the original move",14
+649,shattered-psyche--special,,1,0,,Dummy Data,14
+650,subzero-slammer--physical,,1,0,,"The user dramatically drops the temperature usingits Z-Power and freezes the target with full forceThe power varies, depending on the original move",15
+651,subzero-slammer--special,,1,0,,Dummy Data,15
+652,devastating-drake--physical,,1,0,,"The user materializes its aura using its Z-Power andattacks the target with full force The power varies,depending on the original move",16
+653,devastating-drake--special,,1,0,,Dummy Data,16
+654,black-hole-eclipse--physical,,1,0,,"The user gathers dark energy using its Z-Powerand sucks the target into it The power varies,depending on the original move",17
+655,black-hole-eclipse--special,,1,0,,Dummy Data,17
+656,twinkle-tackle--physical,,1,0,,"The user creates a very charming space using itsZ-Power and totally toys with the target The powervaries, depending on the original move",18
+657,twinkle-tackle--special,,1,0,,Dummy Data,18
+658,catastropika,,1,0,210,"The user, Pikachu, surrounds itself with themaximum amount of electricity using its Z-Powerand pounces on its target with full force",13
+659,shore-up,,10,0,,The user regains up to half of its max HP It restoresmore HP in a sandstorm,5
+660,first-impression,100,10,2,90,"Although this move has great power, it only worksthe first turn the user is in battle",7
+661,baneful-bunker,,10,4,,"In addition to protecting the user from attacks, thismove also poisons any attacker that makesdirect contact",4
+662,spirit-shackle,100,10,0,80,The user attacks while simultaneously stitching thetarget’s shadow to the ground to prevent the targetfrom escaping,8
+663,darkest-lariat,100,10,0,85,The user swings both arms and hits the targetThe target’s stat changes don’t affect thisattack’s damage,17
+664,sparkling-aria,100,10,0,90,"The user bursts into song, emitting many bubblesAny Pokémon suffering from a burn will be healedby the touch of these bubbles",11
+665,ice-hammer,90,10,0,100,"The user swings and hits with its strong, heavy fistIt lowers the user’s Speed, however",15
+666,floral-healing,,10,0,,The user restores the target’s HP by up to half of itsmax HP It restores more HP when the terrainis grass,18
+667,high-horsepower,95,10,0,95,The user fiercely attacks the target using itsentire body,5
+668,strength-sap,100,10,0,,The user restores its HP by the same amount as thetarget’s Attack stat It also lowers the target’sAttack stat,12
+669,solar-blade,100,10,0,125,"In this two-turn attack, the user gathers light andfills a blade with the light’s energy, attacking thetarget on the next turn",12
+670,leafage,100,40,0,40,The user attacks by pelting the target with leaves,12
+671,spotlight,,15,3,,The user shines a spotlight on the target so thatonly the target will be attacked during the turn,1
+672,toxic-thread,100,20,0,,The user shoots poisonous threads to poison thetarget and lower the target’s Speed stat,4
+673,laser-focus,,30,0,,The user concentrates intensely The attack on thenext turn always results in a critical hit,1
+674,gear-up,,20,0,,The user engages its gears to raise the Attack andSp Atk stats of ally Pokémon with the Plus orMinus Ability,9
+675,throat-chop,100,15,0,80,"The user attacks the target’s throat, and theresultant suffering prevents the target from usingmoves that emit sound for two turns",17
+676,pollen-puff,100,15,0,90,"The user attacks the enemy with a pollen puff thatexplodes If the target is an ally, it gives the ally apollen puff that restores its HP instead",7
+677,anchor-shot,100,20,0,80,The user entangles the target with its anchor chainwhile attacking The target becomes unable to flee,9
+678,psychic-terrain,,10,0,,This protects Pokémon on the ground from prioritymoves and powers up Psychic-type moves forfive turns,14
+679,lunge,100,15,0,80,"The user makes a lunge at the target, attacking withfull force This also lowers the target’s Attack stat",7
+680,fire-lash,100,15,0,80,The user strikes the target with a burning lash Thisalso lowers the target’s Defense stat,10
+681,power-trip,100,10,0,20,"The user boasts its strength and attacks the targetThe more the user’s stats are raised, the greater themove’s power",17
+682,burn-up,100,5,0,130,"To inflict massive damage, the user burns itself outAfter using this move, the user will no longer beFire type",10
+683,speed-swap,,10,0,,The user exchanges Speed stats with the target,14
+684,smart-strike,,10,0,70,The user stabs the target with a sharp horn Thisattack never misses,9
+685,purify,,20,0,,"The user heals the target’s status condition If themove succeeds, it also restores the user’s own HP",4
+686,revelation-dance,100,15,0,90,The user attacks the target by dancing very hardThe user’s type determines the type of this move,1
+687,core-enforcer,100,10,0,100,"If the Pokémon the user has inflicted damage onhave already used their moves, this move eliminatesthe effect of the target’s Ability",16
+688,trop-kick,100,15,0,70,The user lands an intense kick of tropical origins onthe target This also lowers the target’s Attack stat,12
+689,instruct,,15,0,,The user instructs the target to use the target’s lastmove again,14
+690,beak-blast,100,15,-3,100,"The user first heats up its beak, and then it attacksthe target Making direct contact with the Pokémonwhile it’s heating up its beak results in a burn",3
+691,clanging-scales,100,5,0,110,The user rubs the scales on its entire body andmakes a huge noise to attack the opposing PokémonThe user’s Defense stat goes down after the attack,16
+692,dragon-hammer,100,15,0,90,The user uses its body like a hammer to attack thetarget and inflict damage,16
+693,brutal-swing,100,20,0,60,The user swings its body around violently to inflictdamage on everything in its vicinity,17
+694,aurora-veil,,20,0,,This move reduces damage from physical andspecial moves for five turns This can be used onlyin a hailstorm,15
+695,sinister-arrow-raid,,1,0,180,"The user, Decidueye, creates countless arrowsusing its Z-Power and shoots the target withfull force",8
+696,malicious-moonsault,,1,0,180,"The user, Incineroar, strengthens its body usingits Z-Power and crashes into the target withfull force",17
+697,oceanic-operetta,,1,0,195,"The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force",11
+698,guardian-of-alola,,1,0,,"The user, the Land Spirit Pokémon, obtains Alola’senergy using its Z-Power and attacks the target withfull force This reduces the target’s HP greatly",18
+699,soul-stealing-7-star-strike,,1,0,195,"After obtaining Z-Power, the user, Marshadow,punches and kicks the target consecutivelywith full force",8
+700,stoked-sparksurfer,,1,0,175,"After obtaining Z-Power, the user, Alolan Raichu,attacks the target with full force This move leavesthe target with paralysis",13
+701,pulverizing-pancake,,1,0,210,"Z-Power brings out the true capabilities of the user,Snorlax The Pokémon moves its enormous bodyenergetically and attacks the target with full force",1
+702,extreme-evoboost,,1,0,,"After obtaining Z-Power, the user, Eevee, getsenergy from its evolved friends and boosts itsstats sharply",1
+703,genesis-supernova,,1,0,185,"After obtaining Z-Power, the user, Mew, attacksthe target with full force The terrain will be chargedwith psychic energy",14
+704,shell-trap,100,5,-3,150,"The user sets a shell trap If the user is hit by aphysical move, the trap will explode and inflictdamage on the opposing Pokémon",10
+705,fleur-cannon,90,5,0,130,The user unleashes a strong beam The attack’srecoil harshly lowers the user’s Sp Atk stat,18
+706,psychic-fangs,100,10,0,85,The user bites the target with its psychiccapabilities This can also destroy Light Screenand Reflect,14
+707,stomping-tantrum,100,10,0,75,"Driven by frustration, the user attacks the target Ifthe user’s previous move has failed, the power ofthis move doubles",5
+708,shadow-bone,100,10,0,85,The user attacks by beating the target with abone that contains a spirit This may also lowerthe target’s Defense stat,8
+709,accelerock,100,20,1,40,The user smashes into the target at high speedThis move always goes first,6
+710,liquidation,100,10,0,85,The user slams into the target using a full-forceblast of water This may also lower the target’sDefense stat,11
+711,prismatic-laser,100,10,0,160,The user shoots powerful lasers using the power ofa prism The user can’t move on the next turn,14
+712,spectral-thief,100,10,0,90,"The user hides in the target’s shadow, stealsthe target’s stat boosts, and then attacks",8
+713,sunsteel-strike,100,5,0,100,The user slams into the target with the force of ameteor This move can be used on the target regardless of its Abilities,9
+714,moongeist-beam,100,5,0,100,The user emits a sinister ray to attack the targetThis move can be used on the target regardless of its Abilities,8
+715,tearful-look,,20,0,,The user gets teary eyed to make the target loseits combative spirit This lowers the target’sAttack and Sp Atk stats,1
+716,zing-zap,100,10,0,80,"A strong electric blast crashes down on the target,giving it an electric shock This may also make thetarget flinch",13
+717,natures-madness,90,10,0,,The user hits the target with the force of natureIt halves the target’s HP,18
+718,multi-attack,100,10,0,120,"Cloaking itself in high energy, the user slams into thetarget The memory held determines the move’s type",1
+719,10-000-000-volt-thunderbolt,,1,0,195,"The user, Pikachu wearing a cap, powers up a jolt ofelectricity using its Z-Power and unleashes itCritical hits land more easily",13
+720,mind-blown,100,5,0,150,The user attacks everything around it by causing itsown head to explode This also damages the user,10
+721,plasma-fists,100,15,0,100,The user attacks with electrically charged fistsThis move changes Normal-type moves toElectric-type moves,13
+722,photon-geyser,100,5,0,100,The user attacks a target with a pillar of light Thismove inflicts Attack or Sp Atk damage—whicheverstat is higher for the user,14
+723,light-that-burns-the-sky,,1,0,200,"This attack inflicts Attack or Sp Atk damage—whichever stat is higher for the user, Necrozma This move ignores the target’s Ability",14
+724,searing-sunraze-smash,,1,0,200,"After obtaining Z-Power, the user, Solgaleo,attacks the target with full force This move canignore the effect of the target’s Ability",9
+725,menacing-moonraze-maelstrom,,1,0,200,"After obtaining Z-Power, the user, Lunala,attacks the target with full force This move canignore the effect of the target’s Ability",8
+726,lets-snuggle-forever,,1,0,190,"After obtaining Z-Power, the user, Mimikyu,punches the target with full force",18
+727,splintered-stormshards,,1,0,190,"After obtaining Z-Power, the user, Lycanroc,attacks the target with full force This move negatesthe effect on the battlefield",6
+728,clangorous-soulblaze,,1,0,185,"After obtaining Z-Power, the user, Kommo-o,attacks the opposing Pokémon with full force Thismove boosts the user’s stats",16
+729,zippy-zap,100,10,2,80,The user attacks the target with bursts of electricityat high speed This move always goes first and resultsin a critical hit,13
+730,splishy-splash,100,15,0,90,The user charges a huge wave with electricity andhits the opposing Pokémon with the wave This mayalso leave the opposing Pokémon with paralysis,11
+731,floaty-fall,95,15,0,90,"The user floats in the air, and then dives at a steepangle to attack the target This may also make thetarget flinch",3
+732,pika-papow,,20,0,,"The more Pikachu loves its Trainer, the greater themove’s power It never misses",13
+733,bouncy-bubble,100,20,0,60,The user attacks by shooting water bubbles at thetarget It then absorbs water and restores its HP by halfthe damage taken by the target,11
+734,buzzy-buzz,100,20,0,60,The user shoots a jolt of electricity to attack the targetThis also leaves the target with paralysis,13
+735,sizzly-slide,100,20,0,60,The user cloaks itself in fire and charges at the targetThis also leaves the target with a burn,10
+736,glitzy-glow,95,15,0,80,The user bombards the target with telekinetic forceA wondrous wall of light is put up to weaken the powerof the opposing Pokémon’s special moves,14
+737,baddy-bad,95,15,0,80,The user acts bad and attacks the targetA wondrous wall of light is put up to weaken the powerof the opposing Pokémon’s physical moves,17
+738,sappy-seed,90,10,0,100,The user grows a gigantic stalk that scatters seedsto attack the target The seeds drain the target’sHP every turn,12
+739,freezy-frost,90,10,0,100,The user attacks with a crystal made of cold frozenhaze It eliminates every stat change among all thePokémon engaged in battle,15
+740,sparkly-swirl,85,5,0,120,The user attacks the target by wrapping it witha whirlwind of an overpowering scent This alsoheals all status conditions of the user’s party,18
+741,veevee-volley,,20,0,,"The more Eevee loves its Trainer, the greater themove’s power It never misses",1
+742,double-iron-bash,100,5,0,60,"The user rotates, centering the hex nut in its chest,and then strikes with its arms twice in a row This mayalso make the target flinch",9
+743,max-guard,,10,4,,This move enables the user to protect itself fromall attacks Its chance of failing rises if it is usedin succession,1
+744,dynamax-cannon,100,5,0,100,The user unleashes a strong beam from its coreThis move deals twice the damage if the targetis Dynamaxed,16
+745,snipe-shot,100,15,0,80,"The user ignores the effects of opposing Pokémon’smoves and Abilities that draw in moves, allowing thismove to hit the chosen target",11
+746,jaw-lock,100,10,0,80,This move prevents the user and the target fromswitching out until either of them faints The effect goesaway if either of the Pokémon leaves the field,17
+747,stuff-cheeks,,10,0,,"The user eats its held Berry, then sharply raises itsDefense stat",1
+748,no-retreat,,5,0,,This move raises all the user’s stats but preventsthe user from switching out or fleeing,2
+749,tar-shot,100,15,0,,"The user pours sticky tar over the target, lowering thetarget’s Speed stat The target becomes weaker toFire-type moves",6
+750,magic-powder,100,20,0,,The user scatters a cloud of magic powder thatchanges the target to Psychic type,14
+751,dragon-darts,100,10,0,50,"The user attacks twice using Dreepy If there are twotargets, this move hits each target once",16
+752,teatime,,10,0,,The user has teatime with all the Pokémon in the battleEach Pokémon eats its held Berry,1
+753,octolock,100,15,0,,The user locks the target in and prevents it fromfleeing This move also lowers the target’s Defenseand Sp Def every turn,2
+754,bolt-beak,100,10,0,85,"The user stabs the target with its electrified beakIf the user attacks before the target, the power of thismove is doubled",13
+755,fishious-rend,100,10,0,85,"The user rends the target with its hard gillsIf the user attacks before the target, the power of thismove is doubled",11
+756,court-change,100,10,0,,"With its mysterious power, the user swaps the effects oneither side of the field",1
+757,max-flare,,10,0,100,This is a Fire-type attack Dynamax Pokémon useThe user intensifies the sun for five turns,10
+758,max-flutterby,,10,0,10,This is a Bug-type attack Dynamax Pokémon useThis lowers the target’s Sp Atk stat,7
+759,max-lightning,,10,0,10,This is an Electric-type attack Dynamax Pokémon useThe user turns the ground into Electric Terrain forfive turns,13
+760,max-strike,,10,0,10,This is a Normal-type attack Dynamax Pokémon useThis lowers the target’s Speed stat,1
+761,max-knuckle,,10,0,10,This is a Fighting-type attack Dynamax Pokémon useThis raises ally Pokémon’s Attack stats,2
+762,max-phantasm,,10,0,10,This is a Ghost-type attack Dynamax Pokémon useThis lowers the target’s Defense stat,8
+763,max-hailstorm,,10,0,10,This is an Ice-type attack Dynamax Pokémon useThe user summons a hailstorm lasting five turns,15
+764,max-ooze,,10,0,10,This is a Poison-type attack Dynamax Pokémon useThis raises ally Pokémon’s Sp Atk stats,4
+765,max-geyser,,10,0,10,This is a Water-type attack Dynamax Pokémon useThe user summons a heavy rain that falls forfive turns,11
+766,max-airstream,,10,0,10,This is a Flying-type attack Dynamax Pokémon useThis raises ally Pokémon’s Speed stats,3
+767,max-starfall,,10,0,10,This is a Fairy-type attack Dynamax Pokémon useThe user turns the ground into Misty Terrain forfive turns,18
+768,max-wyrmwind,,10,0,10,This is a Dragon-type attack Dynamax Pokémon useThis lowers the target’s Attack stat,16
+769,max-mindstorm,,10,0,10,This is a Psychic-type attack Dynamax Pokémon useThe user turns the ground into Psychic Terrain forfive turns,14
+770,max-rockfall,,10,0,10,This is a Rock-type attack Dynamax Pokémon useThe user summons a sandstorm lasting five turns,6
+771,max-quake,,10,0,10,This is a Ground-type attack Dynamax Pokémon useThis raises ally Pokémon’s Sp Def stats,5
+772,max-darkness,,10,0,10,This is a Dark-type attack Dynamax Pokémon useThis lowers the target’s Sp Def stat,17
+773,max-overgrowth,,10,0,10,This is a Grass-type attack Dynamax Pokémon useThe user turns the ground into Grassy Terrain forfive turns,12
+774,max-steelspike,,10,0,10,This is a Steel-type attack Dynamax Pokémon useThis raises ally Pokémon’s Defense stats,9
+775,clangorous-soul,100,5,0,,The user raises all its stats by using some of its HP,16
+776,body-press,100,10,0,80,"The user attacks by slamming its body into the targetThe higher the user’s Defense, the more damage it caninflict on the target",2
+777,decorate,,15,0,,The user sharply raises the target’s Attack and Sp Atkstats by decorating the target,18
+778,drum-beating,100,10,0,80,"The user plays its drum, controlling the drum’s rootsto attack the target This also lowers the target’sSpeed stat",12
+779,snap-trap,100,15,0,35,The user snares the target in a snap trap for four tofive turns,12
+780,pyro-ball,90,5,0,120,The user attacks by igniting a small stone and launchingit as a fiery ball at the target This may also leave thetarget with a burn,10
+781,behemoth-blade,100,5,0,100,The user becomes a gigantic sword and cuts the targetThis move deals twice the damage if the targetis Dynamaxed,9
+782,behemoth-bash,100,5,0,100,The user becomes a gigantic shield and slams intothe target This move deals twice the damage if thetarget is Dynamaxed,9
+783,aura-wheel,100,10,0,110,Morpeko attacks and raises its Speed with the energystored in its cheeks This move’s type changesdepending on the user’s form,13
+784,breaking-swipe,100,15,0,60,The user swings its tough tail wildly and attacksopposing Pokémon This also lowers their Attack stats,16
+785,branch-poke,100,40,0,40,The user attacks the target by poking it with a sharplypointed branch,12
+786,overdrive,100,10,0,80,"The user attacks opposing Pokémon by twanginga guitar or bass guitar, causing a huge echo andstrong vibration",13
+787,apple-acid,100,10,0,80,The user attacks the target with an acidic liquid createdfrom tart apples This also lowers the target’sSp Def stat,12
+788,grav-apple,100,10,0,80,The user inflicts damage by dropping an apple fromhigh above This also lowers the target’s Defense stat,12
+789,spirit-break,100,15,0,75,The user attacks the target with so much force that itcould break the target’s spirit This also lowers thetarget’s Sp Atk stat,18
+790,strange-steam,95,10,0,90,The user attacks the target by emitting steamThis may also confuse the target,18
+791,life-dew,,10,0,,The user scatters mysterious water around and restoresthe HP of itself and its ally Pokémon in the battle,11
+792,obstruct,100,10,4,,This move enables the user to protect itself from all attacksIts chance of failing rises if it is used in successionDirect contact harshly lowers the attacker’s Defense stat,17
+793,false-surrender,,10,0,80,"The user pretends to bow its head, but then it stabs thetarget with its disheveled hair This attack never misses",17
+794,meteor-assault,100,5,0,150,"The user attacks wildly with its thick leekThe user can’t move on the next turn, because theforce of this move makes it stagger",2
+795,eternabeam,90,5,0,160,This is Eternatus’s most powerful attack in its originalform The user can’t move on the next turn,16
+796,steel-beam,95,5,0,140,The user fires a beam of steel that it collected from itsentire body This also damages the user,9
+797,expanding-force,100,10,0,80,The user attacks the target with its psychic powerThis move’s power goes up and damages all opposingPokémon on Psychic Terrain,14
+798,steel-roller,100,5,0,130,The user attacks while destroying the terrain This movefails when the ground hasn’t turned into a terrain,9
+799,scale-shot,90,20,0,25,The user attacks by shooting scales two to five timesin a row This move boosts the user’s Speed stat butlowers its Defense stat,16
+800,meteor-beam,90,10,0,120,"In this two-turn attack, the user gathers space powerand boosts its Sp Atk stat, then attacks the targeton the next turn",6
+801,shell-side-arm,100,10,0,90,"This move inflicts physical or special damage,whichever will be more effective This may also poisonthe target",4
+802,misty-explosion,100,5,0,100,The user attacks everything around it and faints uponusing this move This move’s power is increased onMisty Terrain,18
+803,grassy-glide,100,20,0,70,"Gliding on the ground, the user attacks the targetThis move always goes first on Grassy Terrain",12
+804,rising-voltage,100,20,0,70,The user attacks with electric voltage rising fromthe ground This move’s power doubles when the targetis on Electric Terrain,13
+805,terrain-pulse,100,10,0,50,The user utilizes the power of the terrain to attackThis move’s type and power changes depending onthe terrain when it’s used,1
+806,skitter-smack,90,10,0,70,The user skitters behind the target to attack This alsolowers the target’s Sp Atk stat,7
+807,burning-jealousy,100,5,0,70,The user attacks with energy from jealousy This leavesall opposing Pokémon that have had their stats boostedduring the turn with a burn,10
+808,lash-out,100,5,0,75,"The user lashes out to vent its frustration towardthe target If the user’s stats were lowered during thisturn, the power of this move is doubled",17
+809,poltergeist,90,5,0,110,The user attacks the target by controlling the target’sitem The move fails if the target doesn’t have an item,8
+810,corrosive-gas,100,40,0,,The user surrounds everything around it withhighly acidic gas and melts away items they hold,4
+811,coaching,,10,0,,"The user properly coaches its ally Pokémon,boosting their Attack and Defense stats",2
+812,flip-turn,100,20,0,60,"After making its attack, the user rushes back toswitch places with a party Pokémon in waiting",11
+813,triple-axel,90,10,0,20,A consecutive three-kick attack that becomes morepowerful with each successful hit,15
+814,dual-wingbeat,90,10,0,40,The user slams the target with its wingsThe target is hit twice in a row,3
+815,scorching-sands,100,10,0,70,The user throws scorching sand at the target to attackThis may also leave the target with a burn,5
+816,jungle-healing,,10,0,,"The user becomes one with the jungle, restoring HPand healing any status conditions of itself and its allyPokémon in battle",12
+817,wicked-blow,100,5,0,80,"The user, having mastered the Dark style, strikes thetarget with a fierce blow This attack always resultsin a critical hit",17
+818,surging-strikes,100,5,0,25,"The user, having mastered the Water style, strikes thetarget with a flowing motion three times in a row Thisattack always results in a critical hit",11
+819,thunder-cage,90,15,0,80,The user traps the target in a cage of sparkingelectricity for four to five turns,13
+820,dragon-energy,100,5,0,150,"Converting its life-force into power, the user attacksopposing Pokémon The lower the user’s HP, the lowerthe move’s power",16
+821,freezing-glare,100,10,0,90,The user shoots its psychic power from its eyesto attack This may also leave the target frozen,14
+822,fiery-wrath,100,10,0,90,The user transforms its wrath into a fire-like aurato attack This may also make opposing Pokémon flinch,17
+823,thunderous-kick,100,10,0,90,The user overwhelms the target with lightning-likemovement before delivering a kick This also lowersthe target’s Defense stat,2
+824,glacial-lance,100,5,0,130,The user attacks by hurling a blizzard-cloakedicicle lance at opposing Pokémon,15
+825,astral-barrage,100,5,0,120,The user attacks by sending a frightful amount of smallghosts at opposing Pokémon,8
+826,eerie-spell,100,5,0,80,The user attacks with its tremendous psychic powerThis also removes 3 PP from the target’s last move,14
+10001,shadow-rush,100,,0,55,,10002
+10002,shadow-blast,100,,0,80,,10002
+10003,shadow-blitz,100,,0,40,,10002
+10004,shadow-bolt,100,,0,75,,10002
+10005,shadow-break,100,,0,75,,10002
+10006,shadow-chill,100,,0,75,,10002
+10007,shadow-end,60,,0,120,,10002
+10008,shadow-fire,100,,0,75,,10002
+10009,shadow-rave,100,,0,70,,10002
+10010,shadow-storm,100,,0,95,,10002
+10011,shadow-wave,100,,0,50,,10002
+10012,shadow-down,100,,0,,,10002
+10013,shadow-half,100,,0,,,10002
+10014,shadow-hold,,,0,,,10002
+10015,shadow-mist,100,,0,,,10002
+10016,shadow-panic,90,,0,,,10002
+10017,shadow-shed,,,0,,,10002
+10018,shadow-sky,,,0,,,10002
