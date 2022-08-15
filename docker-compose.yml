@@ -6,8 +6,6 @@ services:
       - "5432:5432"
     networks:
       - pokenet
-    volumes:
-      - ./data:/var/lib/postgresql/data
   pokebook:
     container_name: pokebook
     image: jupyter/scipy-notebook:latest
