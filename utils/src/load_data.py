@@ -28,7 +28,7 @@ def extract_id(url: str) -> int:
     return re.search(f"{POKEAPI_BASE_URL}/\w+/([0-9]+)/", url).group(1)
 
 def sanitize_description(description: str) -> str:
-    return description.replace("\n", "").replace(".", "").replace("\"", "")
+    return description.replace("\n", " ").replace(".", "").replace("\"", "")
 
 ############################
 # TYPES
@@ -107,7 +107,7 @@ with open('./pokedb/initdb/pokemon.csv', 'w') as pokemon, \
         pokemon_info = get_pokemon_info(pokemon['name'])
         pokemon_writer.writerow([pokemon_info['id'], 
                                  pokemon_info['name'], 
-                                 pokemon_info['height'], 
+                                 pokemon_info['height'] , 
                                  pokemon_info['weight'], 
                                  pokemon_info['base_experience']])
         for type in pokemon_info["types"]:

@@ -11,8 +11,8 @@ The collection of pokemon
 CREATE TABLE "pokemon" (
   "id" INTEGER,
   "name" TEXT,
-  "height" INTEGER,
-  "weight" INTEGER,
+  "height" INTEGER, /* In dm */
+  "weight" INTEGER, /* In Hg */
   "base_experience" INTEGER,
   PRIMARY KEY ("id")
 );
